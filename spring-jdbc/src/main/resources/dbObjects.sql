@@ -38,12 +38,26 @@ mysql> select * from student;
 +-----+---------------+----------+
 1 row in set (0.00 sec)
 
+-- ###  insert Operation ### --
+
 mysql> select * from student;
 +-----+---------------+----------+
 | id  | name          | city     |
 +-----+---------------+----------+
 | 111 | Shrikant kale | Amravati |
 | 222 | SHRIKANT KALE | AMRAVATI |
+| 333 | Shrikant Kale | Amravati |
++-----+---------------+----------+
+3 rows in set (0.00 sec)
+
+
+-- ###  update Operation ### --
+mysql> select * from student;
++-----+---------------+----------+
+| id  | name          | city     |
++-----+---------------+----------+
+| 111 | Shrikant kale | Amravati |
+| 222 | Prashant Kale | Pune     |
 | 333 | Shrikant Kale | Amravati |
 +-----+---------------+----------+
 3 rows in set (0.00 sec)

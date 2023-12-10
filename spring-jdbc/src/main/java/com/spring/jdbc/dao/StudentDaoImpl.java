@@ -24,4 +24,13 @@ public class StudentDaoImpl implements StudentDao{
         System.out.println("Number of record inserted : "+insertCount);
         return insertCount;
     }
+
+    @Override
+    public int change(Student student) {
+        // update query
+        String query = "UPDATE springjdbc.student SET NAME=?, CITY=? WHERE ID=?;";
+        int updateCount = jdbcTemplate.update(query,student.getName(), student.getCity(),student.getId());
+        System.out.println("Number of record inserted : "+updateCount);
+        return updateCount;
+    }
 }

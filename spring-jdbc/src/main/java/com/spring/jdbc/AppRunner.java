@@ -11,9 +11,18 @@ public class AppRunner {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
 
             StudentDao studentDaoImpl = (StudentDao) context.getBean("studentDaoImpl", StudentDao.class);
+        /*
             Student student = new Student(333, "Shrikant Kale", "Amravati");
                 int result = studentDaoImpl.insert(student);
                 System.out.println(result);
+        */
+
+        Student student = new Student();
+            student.setId(222);
+            student.setName("Prashant Kale");
+            student.setCity("Pune");
+            int result = studentDaoImpl.change(student);
+        System.out.println(result);
 
         context.close();
     }

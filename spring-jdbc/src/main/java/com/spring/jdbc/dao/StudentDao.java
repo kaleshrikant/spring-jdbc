@@ -4,5 +4,5 @@ import com.spring.jdbc.dao.entity.Student;
 
 public interface StudentDao {
     public int insert(Student student);
-
+    public int change(Student student);
 }
