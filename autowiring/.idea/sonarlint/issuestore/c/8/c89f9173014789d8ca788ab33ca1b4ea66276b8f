@@ -1,0 +1,7 @@
+
+…
+java:S1488)"cImmediately return this expression instead of assigning it to the temporary variable "studentList".(æå°²ûÿÿÿÿ8ºœÈ¡Å1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ËœÈ¡Å1
+s
+java:S1450"VRemove the "student" field and declare it as a local variable in the relevant methods.(¤—öö8ÌœÈ¡Å1
