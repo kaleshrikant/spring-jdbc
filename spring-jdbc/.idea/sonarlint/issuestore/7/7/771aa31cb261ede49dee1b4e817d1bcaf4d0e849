@@ -1,0 +1,8 @@
+
+O
+java:S1905"-Remove this unnecessary cast to "StudentDao".(ø£Œ¥øÿÿÿÿ8ùÍÃ—Å1
+L	java:S106"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8–†İ”Å1
+\
+java:S1128"?Remove this unused import 'com.spring.jdbc.dao.StudentDaoImpl'.(µÿ½8¸Å—Å1
+i
+java:S1128"GRemove this unused import 'org.springframework.jdbc.core.JdbcTemplate'.(å ê‹ÿÿÿÿÿ8üÍÃ—Å1
