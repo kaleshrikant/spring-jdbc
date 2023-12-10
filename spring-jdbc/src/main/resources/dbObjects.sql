@@ -61,3 +61,14 @@ mysql> select * from student;
 | 333 | Shrikant Kale | Amravati |
 +-----+---------------+----------+
 3 rows in set (0.00 sec)
+
+
+-- ###  delete Operation ### --
+mysql> select * from student;
++-----+---------------+----------+
+| id  | name          | city     |
++-----+---------------+----------+
+| 222 | Prashant Kale | Pune     |
+| 333 | Shrikant Kale | Amravati |
++-----+---------------+----------+
+2 rows in set (0.00 sec)

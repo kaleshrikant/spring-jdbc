@@ -17,12 +17,20 @@ public class AppRunner {
                 System.out.println(result);
         */
 
-        Student student = new Student();
+        /*
+            Student student = new Student();
             student.setId(222);
             student.setName("Prashant Kale");
             student.setCity("Pune");
             int result = studentDaoImpl.change(student);
         System.out.println(result);
+        */
+
+        Student student = new Student();
+        student.setId(111);
+        int result = studentDaoImpl.delete(student.getId());
+        System.out.println(result);
+
 
         context.close();
     }

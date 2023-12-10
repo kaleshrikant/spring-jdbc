@@ -30,7 +30,16 @@ public class StudentDaoImpl implements StudentDao{
         // update query
         String query = "UPDATE springjdbc.student SET NAME=?, CITY=? WHERE ID=?;";
         int updateCount = jdbcTemplate.update(query,student.getName(), student.getCity(),student.getId());
-        System.out.println("Number of record inserted : "+updateCount);
+        System.out.println("Number of record updated : "+updateCount);
         return updateCount;
+    }
+
+    @Override
+    public int delete(int studentId) {
+        // delete query
+        String query = "DELETE FROM springjdbc.student WHERE ID=?;";
+        int deleteCount = jdbcTemplate.update(query,studentId);
+        System.out.println("Number of record deleted : "+deleteCount);
+        return deleteCount;
     }
 }
